@@ -5,11 +5,11 @@ A cheap ($20.49 after cost-analysis) DIY home security device that:
 * Notifies the customer remotely via IFTT (with texts, calls, emails, etc.)
 
 ## Components ##
-*Lithium Ion Polymer Battery
-*Powerboost 500c charge controller
-*Node MCU ESP 12-E
-*Solus active buzzer alarm module
-*Reed Switch
+* Lithium Ion Polymer Battery
+* Powerboost 500c charge controller
+* Node MCU ESP 12-E
+* Solus active buzzer alarm module
+* Reed Switch
 
 ## Block Diagram ##
 
