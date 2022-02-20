@@ -5,7 +5,7 @@
 ADC_MODE(ADC_VCC);
 const char *ssid = "*********";		// removed for privacy
 const char *password = "*******";	// removed for privacy
-int buzzer = D4; // GPIO pin that drives buzzer signal
+int buzzer = D4; 			// GPIO pin that drives buzzer signal
 
 void setup()
 {
