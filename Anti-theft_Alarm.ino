@@ -3,17 +3,13 @@
 #define LED 2
 
 ADC_MODE(ADC_VCC);
-const char *ssid = "Pixel_4209";	// example
-const char *password = "02dbc5836a54";	// random example
-int led = 13;
-int buzzer = D1;
+const char *ssid = "*********";		// removed for privacy
+const char *password = "*******";	// removed for privacy
+int buzzer = D4; // GPIO pin that drives buzzer signal
 
 void setup()
 {
-	pinMode(LED, OUTPUT);
-	pinMode(led, OUTPUT);
-	digitalWrite(led, LOW);
-	Serial.begin(115200);
+	Serial.begin(115200); 		// baud rate
 	Serial.println();
 	Serial.print("WIFI Connecting to");
 	Serial.println(ssid);
@@ -32,9 +28,7 @@ void wifiConnect()
 	{
 		delay(500);
 		Serial.print(".");
-	}
-
-	digitalWrite(led, HIGH);
+	}	
 	Serial.println();
 	Serial.println("Wifi Connected Success!");
 	Serial.print("Node MCU IP ADDRESS:");
