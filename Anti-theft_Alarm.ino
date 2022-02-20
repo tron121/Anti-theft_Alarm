@@ -1,6 +1,5 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
-#define LED 2
 
 ADC_MODE(ADC_VCC);
 const char *ssid = "*********";		// removed for privacy
@@ -14,7 +13,7 @@ void setup()
 	Serial.print("WIFI Connecting to");
 	Serial.println(ssid);
 	wifiConnect();
-	func2();
+	powerOn();
 }
 
 void loop() {}
@@ -51,7 +50,7 @@ void powerOn()
 
 void sensorStatus()
 {
-	float vcc = ESP.getVcc();
+	float vcc = ESP.getVcc(); 
 	vcc = (vcc) / (1000.000);
 	String myStr;
 	myStr = String(vcc);
@@ -85,7 +84,7 @@ int get_http(String state)
 	{
 		ret = -1;
 		Serial.printf("[HTTP] GET failed, error: %s\n", http.errorToString(httpCode).c_str());
-		delay(500);	// wait for half sec before retry again
+		delay(500);	// wait for half sec and try again
 	}
 
 	http.end();
