@@ -1,5 +1,5 @@
 # Anti-theft Alarm #
-A cheap ($20.49 after cost-analysis) DIY home security device that:
+A cheap ($20.49) DIY home security device that:
 * Detects break-ins
 * Sounds an alarm
 * Notifies the customer remotely via IFTT (with texts, calls, emails, etc.)
