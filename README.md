@@ -19,7 +19,7 @@ A cheap ($20.49 after cost-analysis) DIY home security device that:
 Parts were wired together, and switch was soldered on to charge controller. Final assembly was then housed in the plastic casing.
 
 ## Final Prototype ##
-video
+Picture:
 
 IFTT Notification example :
 
