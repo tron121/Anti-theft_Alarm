@@ -20,6 +20,7 @@ Parts were wired together, and switch was soldered on to charge controller. Fina
 
 ## Final Prototype ##
 
+![620EAFC7-62EC-4ABC-8236-3714933D6846 614](https://user-images.githubusercontent.com/45464273/162589164-987b81b4-1884-4db9-918b-306094a895d5.jpeg)
 
 
 IFTT Notification example :
